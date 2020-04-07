@@ -1,4 +1,5 @@
 from numpy import exp, array, random, dot
+
 training_set_inputs = array([[0, 0, 1], [1, 1, 1], [1, 0, 1], [0, 1, 1]])
 training_set_outputs = array([[0, 1, 1, 0]]).T
 random.seed(1)
